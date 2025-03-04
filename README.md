@@ -1,2 +1,4 @@
 # Cbscfe_mine
-Some wacky stuff from Cbscfe
+
+这里是我的一些作品的整合
+暂不考虑做 `1.20.6-`的向下兼容
