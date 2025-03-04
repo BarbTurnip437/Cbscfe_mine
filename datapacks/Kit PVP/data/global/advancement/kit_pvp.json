@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Kit PVP",
+        "description": "简陋的自制品",
+        "icon": {
+            "id": "minecraft:stone"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

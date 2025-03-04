@@ -1,0 +1,14 @@
+##
+ # kills_high_kill_combo_player.mcfunction
+ # 
+ #
+ # Created by .
+##
+
+execute if score @s kill_combo matches 1 at @s run tellraw @a [{"text":"1杀  "},{"selector":"@s","color":"yellow"},{"text":" 终结了 ","color":"gold"},{"selector":"@p[scores={is_dead=-1,kill_combo=3.. }]","color":"red"},{"text":" 的 ","color":"gold"},{"score":{"name": "@p[scores={is_dead=-1}]", "objective": "kill_combo"},"color": "gold"},{"text":"连杀","color":"gold"}]
+execute if score @s kill_combo matches 2 at @s run tellraw @a [{"text":"2杀  ","color":"yellow"},{"selector":"@s","color":"yellow"},{"text":" 终结了 ","color":"gold"},{"selector":"@p[scores={is_dead=-1,kill_combo=3.. }]","color":"red"},{"text":" 的 ","color":"gold"},{"score":{"name": "@p[scores={is_dead=-1}]", "objective": "kill_combo"},"color": "gold"},{"text":"连杀","color":"gold"}]
+execute if score @s kill_combo matches 3 at @s run tellraw @a [{"text":"3杀!  ","color":"gold"},{"selector":"@s","color":"yellow"},{"text":" 终结了 ","color":"gold"},{"selector":"@p[scores={is_dead=-1,kill_combo=3.. }]","color":"red"},{"text":" 的 ","color":"gold"},{"score":{"name": "@p[scores={is_dead=-1}]", "objective": "kill_combo"},"color": "gold"},{"text":"连杀","color":"gold"}]
+execute if score @s kill_combo matches 4 at @s run tellraw @a [{"text":"4杀o.o  ","color":"red"},{"selector":"@s","color":"yellow"},{"text":" 终结了 ","color":"gold"},{"selector":"@p[scores={is_dead=-1,kill_combo=3.. }]","color":"red"},{"text":" 的 ","color":"gold"},{"score":{"name": "@p[scores={is_dead=-1}]", "objective": "kill_combo"},"color": "gold"},{"text":"连杀","color":"gold"}]
+execute if score @s kill_combo matches 5 at @s run tellraw @a [{"text":"5杀@_@  ","color":"red"},{"selector":"@s","color":"yellow"},{"text":" 终结了 ","color":"gold"},{"selector":"@p[scores={is_dead=-1,kill_combo=3.. }]","color":"red"},{"text":" 的 ","color":"gold"},{"score":{"name": "@p[scores={is_dead=-1}]", "objective": "kill_combo"},"color": "gold"},{"text":"连杀","color":"gold"}]
+execute if score @s kill_combo matches 6..10 at @s run tellraw @a [{"text":"暗区突围!(","color":"dark_red"},{"score":{"name": "@s", "objective": "kill_combo"}},")  ",{"selector":"@s","color":"yellow"},{"text":" 终结了 ","color":"gold"},{"selector":"@p[scores={is_dead=-1,kill_combo=3.. }]","color":"red"},{"text":" 的 ","color":"gold"},{"score":{"name": "@p[scores={is_dead=-1}]", "objective": "kill_combo"},"color": "gold"},{"text":"连杀","color":"gold"}]
+execute if score @s kill_combo matches 11.. at @s run tellraw @a [{"text":"已经超神了!(","color":"dark_red"},{"score":{"name": "@s", "objective": "kill_combo"}},")  ",{"selector":"@s","color":"yellow"},{"text":" 终结了 ","color":"gold"},{"selector":"@p[scores={is_dead=-1,kill_combo=3.. }]","color":"red"},{"text":" 的 ","color":"gold"},{"score":{"name": "@p[scores={is_dead=-1}]", "objective": "kill_combo"},"color": "gold"},{"text":"连杀","color":"gold"}]

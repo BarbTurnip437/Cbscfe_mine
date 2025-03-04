@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "show_CBC",
+        "description": "基岩版同款 (误",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'Cbscfe'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

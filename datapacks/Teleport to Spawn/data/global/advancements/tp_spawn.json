@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Teleport to Spawn",
+        "description": "再也不需要/kill了!",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'Cbscfe'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
