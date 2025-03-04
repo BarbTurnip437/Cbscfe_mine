@@ -1,0 +1,6 @@
+summon falling_block ~ ~0.6 ~ {Time:1,BlockState:{Name:redstone_block},Passengers:[
+	{id:falling_block,Time:1,BlockState:{Name:activator_rail},Passengers:[
+		{id:command_block_minecart,Command:'gamerule commandBlockOutput false'},
+		{id:command_block_minecart,Command:'一直复制此行并在此处输入命令'},
+		{id:command_block_minecart,Command:'setblock ~ ~1 ~ command_block{auto:1,Command:"fill ~ ~ ~ ~ ~-2 ~ air"}'},
+		{id:command_block_minecart,Command:'kill @e[type=command_block_minecart,distance=..1]'}]}]}

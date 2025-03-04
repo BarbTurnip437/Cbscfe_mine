@@ -12,4 +12,4 @@ execute if block ~ ~ ~ repeating_command_block run return run function cbscfe:sh
 execute unless block ~ ~ ~ #air run scoreboard players add @s show_cbc.ray_recursion 1
 
 scoreboard players add @s show_cbc.ray_recursion 1
-execute if score @s show_cbc.ray_recursion matches ..25 positioned ^ ^ ^0.2 run function cbscfe:show_cb_command/cb_detect/detect
+execute if score @s show_cbc.ray_recursion matches ..50 positioned ^ ^ ^0.1 run function cbscfe:show_cb_command/cb_detect/detect
