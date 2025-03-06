@@ -23,7 +23,7 @@ scoreboard players add despawn_cobweb kit_pvp.timer 1
 execute if score despawn_cobweb kit_pvp.timer matches 8.. as @e[tag=despawn_cobweb] at @s positioned ~ ~-1 ~ run function cbscfe:kit_pvp/give_item/summon_cobweb {age:5840}
 execute if score despawn_cobweb kit_pvp.timer matches 8.. run scoreboard players set despawn_cobweb kit_pvp.timer 0
 
-execute as @e[type=text_display,tag=despawn_cobweb] run data merge entity @s {billboard:"vertical",text:'[{"color":"gray","text":"蜘蛛网资源点\\n"},{"score":{"name":"despawn_cobweb","objective":"kit_pvp.timer"}},"s/8s"]'}
+execute as @e[type=text_display,tag=despawn_cobweb] run data merge entity @s {billboard:"vertical",text:'[{"color":"white","text":"蜘蛛网资源点\\n"},{"score":{"name":"despawn_cobweb","objective":"kit_pvp.timer"}},"s/8s"]'}
 
 
 scoreboard players add ender_pearl kit_pvp.timer 1
@@ -37,6 +37,6 @@ scoreboard players add undying_totem kit_pvp.timer 1
 execute if score undying_totem kit_pvp.timer matches 100.. as @e[tag=undying_totem] at @s positioned ~ ~-1 ~ run function cbscfe:kit_pvp/give_item/summon_undying_totem {age:4000}
 execute if score undying_totem kit_pvp.timer matches 100.. run scoreboard players set undying_totem kit_pvp.timer 0
 
-execute as @e[type=text_display,tag=undying_totem] run data merge entity @s {billboard:"vertical",text:'[{"color":"gray","text":"不死图腾刷新点\\n"},{"score":{"name":"undying_totem","objective":"kit_pvp.timer"}},"s/100s"]'}
+execute as @e[type=text_display,tag=undying_totem] run data merge entity @s {billboard:"vertical",text:'[{"color":"gold","text":"不死图腾刷新点\\n"},{"score":{"name":"undying_totem","objective":"kit_pvp.timer"}},"s/100s"]'}
 
 schedule function cbscfe:kit_pvp/spawn_points 1s

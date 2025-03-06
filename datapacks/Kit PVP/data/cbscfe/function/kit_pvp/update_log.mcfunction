@@ -87,15 +87,21 @@ tellraw @s {"color":"blue","text":"---------"}
 tellraw @s {"color":"aqua","text":"25/?/? v2.5"}
 tellraw @s "为数据包所有的定义加上命名空间, 现在数据包不再需要axiom模组作为前置"
 tellraw @s "自动选择职业的开关由计分板改为tag -- no_auto_select_kit"
+tellraw @s "开源数据包"
 tellraw @s "狙击枪冷却 20s -> 15s"
 tellraw @s "修复恶性bug"
 tellraw @s "由于网络原因关房休整"
 tellraw @s "地雷现在由数据包驱动并进行调整, 同时加入一些predicate"
 tellraw @s "由于QQ群被封, 修改了公告栏内容"
 tellraw @s {"color":"aqua","text":"25/3/5 v2.5.1"}
-tellraw @s "地图加入了几个彩蛋"
+tellraw @s "地图加入了几个彩蛋和区域"
 tellraw @s "数据包更新日志和官方地图更新日志合并"
 tellraw @s "数据包开源至https://github.com/BarbTurnip437/Cbscfe_mine"
+tellraw @s "为大部分命令方块加入悬停说明"
+tellraw @s {"color":"aqua","text":"25/3/5 v2.5.2"}
+tellraw @s "调整了一些刷新点的颜色"
+tellraw @s "将玩家建议上传github"
 
 # tellraw @s "作为我第一个真正有用户的项目(登记玩家至少300最高同时在线14人), 我很高兴"
 # tellraw @s "这是Cbscfe的一大步, 也是MXZ工作室(现LIB工作室)的一大步"
+# tellraw @s "(等等你说啥!? 我们在迷你世界的地图已经圈到钱了?)"

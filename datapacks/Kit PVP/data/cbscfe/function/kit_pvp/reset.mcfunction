@@ -5,7 +5,7 @@
  # Created by Cbscfe.
 ##
 
-tellraw @a [{"color":"aqua","text":"已加载Cbscfe自研 职业战争数据包 v1.1  "}, {"color":"gray","text":"使用说明请看包内README.md"}]
+tellraw @a [{"color":"aqua","text":"已加载Cbscfe自研 职业战争数据包 v2.5.1  "}, {"color":"gray","text":"使用说明请看包内README.md"}]
 
 schedule function cbscfe:kit_pvp/spawn_points 1t replace
 schedule function cbscfe:kit_pvp/score/kdr_update 1t replace
