@@ -1,0 +1,75 @@
+{
+    "type": "minecraft:entity",
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:enchanted_golden_apple",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": 3
+                }],
+                "conditions": [{
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "kill_combo": {
+                            "min": 64
+                        }
+                    }
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:player_head",
+                "functions": [{
+                        "function": "minecraft:set_components",
+                        "include": [
+                            "minecraft:use_cooldown"
+                        ],
+                        "components": {
+                            "minecraft:use_cooldown": {
+                                "seconds": 6
+                            },
+                            "minecraft:consumable": {
+                                "consume_seconds": 0.5,
+                                "on_consume_effects": [{
+                                    "type": "minecraft:apply_effects",
+                                    "effects": [{
+                                            "id": "minecraft:regeneration",
+                                            "amplifier": 1,
+                                            "duration": 70
+                                        },
+                                        {
+                                            "id": "minecraft:absorption",
+                                            "amplifier": 0,
+                                            "duration": -1
+                                        },
+                                        {
+                                            "id": "minecraft:speed",
+                                            "amplifier": 1,
+                                            "duration": 100
+                                        }
+                                    ],
+                                    "probability": 1
+                                }]
+                            }
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_name",
+                        "entity": "this",
+                        "name": ""
+                    },
+                    {
+                        "function": "minecraft:fill_player_head",
+                        "entity": "this"
+                    }
+                ],
+                "conditions": [{
+                    "condition": "minecraft:killed_by_player"
+                }]
+            }
+        ]
+    }]
+}
