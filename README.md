@@ -17,5 +17,21 @@ Kit PVP 不会向下兼容
 
 ### Kit PVP
 
-* [ ] 修复 #
+* [ ] 修复 [#7](https://github.com/BarbTurnip437/Cbscfe_mine/issues/7)
 * [ ] 加入 [#6](https://github.com/BarbTurnip437/Cbscfe_mine/issues/6)
+
+### NO Drop Item
+
+* [ ] 暂无
+
+### show_CBC
+
+* [ ] 盔甲架文字模式
+
+### Teleport to Spawn
+
+* [ ] 暂无
+
+### Tips
+
+* [ ] 使其可用
