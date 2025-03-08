@@ -14,10 +14,10 @@ item replace entity @s armor.feet with minecraft:leather_boots[unbreakable={},en
 
 give @s minecraft:bow[unbreakable={},enchantments={power:1,knockback:1,infinity:1,vanishing_curse:1}]
 
+function cbscfe:kit_pvp/give_kit/give_food
+
 # 这是为了留出空位
-give @s barrier[custom_data={void:1}, max_stack_size=1] 7
+give @s barrier[custom_data={void:1}, max_stack_size=1] 4
 
 give @s minecraft:spectral_arrow[enchantments={vanishing_curse:1},enchantment_glint_override=false] 64
 give @s minecraft:arrow[enchantments={vanishing_curse:1},enchantment_glint_override=false]
-
-function cbscfe:kit_pvp/give_kit/give_food

@@ -104,7 +104,7 @@ tellraw @s "将玩家建议上传github"
 tellraw @s "加入了玩家掉落物"
 tellraw @s "打磨了一些地图细节"
 tellraw @s {"color":"blue","text":"---------"}
-tellraw @s {"color":"aqua","text":"25/3/6 v2.6"}
+tellraw @s {"color":"aqua","text":"25/3/6 v2.6.1"}
 tellraw @s "修复了 #7"
 tellraw @s "重命名!"
 
