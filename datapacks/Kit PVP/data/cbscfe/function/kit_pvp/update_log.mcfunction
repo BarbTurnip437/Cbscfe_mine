@@ -103,6 +103,11 @@ tellraw @s "调整了一些刷新点的颜色"
 tellraw @s "将玩家建议上传github"
 tellraw @s "加入了玩家掉落物"
 tellraw @s "打磨了一些地图细节"
+tellraw @s {"color":"blue","text":"---------"}
+tellraw @s {"color":"aqua","text":"25/3/6 v2.6"}
+tellraw @s "修复了 #7"
+tellraw @s "重命名!"
+
 
 # tellraw @s "作为我第一个真正有用户的项目(登记玩家至少300最高同时在线14人), 我很高兴"
 # tellraw @s "这是Cbscfe的一大步, 也是MXZ工作室(现LIB工作室)的一大步"

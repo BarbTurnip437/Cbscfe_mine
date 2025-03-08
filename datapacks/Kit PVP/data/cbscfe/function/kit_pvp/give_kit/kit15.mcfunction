@@ -12,8 +12,8 @@ item replace entity @s armor.chest with diamond_chestplate[unbreakable={},enchan
 item replace entity @s armor.legs with diamond_leggings[unbreakable={},enchantments={vanishing_curse:1},enchantment_glint_override=false]
 item replace entity @s armor.feet with leather_boots[unbreakable={},dyed_color=3847130,enchantments={vanishing_curse:1},enchantment_glint_override=false]
 
-item replace entity @s hotbar.0 with stick[enchantments={levels:{sharpness:10,knockback:2,vanishing_curse:1}}]
-item replace entity @s hotbar.1 with stick[enchantments={levels:{knockback:5,vanishing_curse:1}}]
+give @s stick[enchantments={levels:{sharpness:10,knockback:2,vanishing_curse:1}}]
+give @s stick[enchantments={levels:{knockback:5,vanishing_curse:1}}]
 
 effect give @s minecraft:haste infinite 0 false
 

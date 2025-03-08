@@ -12,6 +12,6 @@ item replace entity @s armor.chest with chainmail_chestplate[unbreakable={},trim
 item replace entity @s armor.legs with leather_leggings[unbreakable={},enchantments={thorns:7,vanishing_curse:1},dyed_color=6192150]
 item replace entity @s armor.feet with golden_boots[unbreakable={},enchantments={thorns:7,vanishing_curse:1}]
 
-item replace entity @s hotbar.0 with minecraft:stone_sword[unbreakable={}, enchantments={levels:{sharpness:1,vanishing_curse:1}}]
+give @s minecraft:stone_sword[unbreakable={}, enchantments={levels:{sharpness:1,vanishing_curse:1}}]
 
 function cbscfe:kit_pvp/give_kit/give_food
