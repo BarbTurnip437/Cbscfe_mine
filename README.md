@@ -18,7 +18,7 @@ Kit PVP 不会向下兼容
 
 ### Kit PVP
 
-* [X] 修复 [#7](https://github.com/BarbTurnip437/Cbscfe_mine/issues/7)
+* [ ] 修复 [#7](https://github.com/BarbTurnip437/Cbscfe_mine/issues/7)
 * [ ] 加入 [#6](https://github.com/BarbTurnip437/Cbscfe_mine/issues/6)
 * [ ] 基于[视频](https://www.bilibili.com/video/BV1yxApeNEnC)重写技能
 
