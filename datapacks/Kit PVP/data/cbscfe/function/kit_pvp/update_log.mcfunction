@@ -104,9 +104,10 @@ tellraw @s "将玩家建议上传github"
 tellraw @s "加入了玩家掉落物"
 tellraw @s "打磨了一些地图细节"
 tellraw @s {"color":"blue","text":"---------"}
-tellraw @s {"color":"aqua","text":"25/3/6 v2.6.1"}
-tellraw @s "修复了 #7"
+tellraw @s {"color":"aqua","text":"25/3/10 v2.6.2"}
+tellraw @s "修复了 #7 的一半"
 tellraw @s "重命名!"
+tellraw @s "地图加入一个场景"
 
 
 # tellraw @s "作为我第一个真正有用户的项目(登记玩家至少300最高同时在线14人), 我很高兴"

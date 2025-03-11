@@ -7,7 +7,8 @@
 来更好地使用该数据包
 
 更新日志在游戏内运行 `/function cbscfe:kit_pvp/update_log`
-主城位置写死在 `Kit PVP\data\cbscfe\function\kit_pvp\main.mcfunction`
+主城位置写死在 `Kit PVP\data\cbscfe\function\kit_pvp\main.mcfunction
+`
 
 ---
 
