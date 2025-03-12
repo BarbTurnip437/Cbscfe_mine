@@ -18,9 +18,15 @@ Kit PVP 不会向下兼容\
 
 ### Kit PVP
 
+<<<<<<< HEAD
 - [ ] 使用[前置](https://modrinth.com/datapack/gens-data-api)重写
 - [ ] 修复[#7](https://github.com/BarbTurnip437/Cbscfe_mine/issues/7)
 - [ ] 加入[#6](https://github.com/BarbTurnip437/Cbscfe_mine/issues/6)
+=======
+* [ ] 修复 [#7](https://github.com/BarbTurnip437/Cbscfe_mine/issues/7)
+* [ ] 加入 [#6](https://github.com/BarbTurnip437/Cbscfe_mine/issues/6)
+* [ ] 基于[视频](https://www.bilibili.com/video/BV1yxApeNEnC)重写技能
+>>>>>>> 48e967b553ef58d19ce018b481fc8c1235528382
 
 ### NO Drop Item
 
