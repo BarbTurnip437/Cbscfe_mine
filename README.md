@@ -7,9 +7,9 @@ Kit PVP 不会向下兼容
 
 ## 更新计划
 
-### Better Death Msg ![img](https://img.shields.io/badge/v*-red)
+### Better Death Msg ![img](https://img.shields.io/badge/v1-blue)
 
-* [ ] 显示自定义击杀信息
+* [X] 显示自定义击杀信息
 * [ ] 使用进度优化
 
 ### Combo API ![img](https://img.shields.io/badge/v1-blue)
