@@ -109,7 +109,11 @@ tellraw @s "修复了 #7 的一半"
 tellraw @s "重命名!"
 tellraw @s "地图加入一个场景"
 
-
 # tellraw @s "作为我第一个真正有用户的项目(登记玩家至少300最高同时在线14人), 我很高兴"
 # tellraw @s "这是Cbscfe的一大步, 也是MXZ工作室(现LIB工作室)的一大步"
 # tellraw @s "(等等你说啥!? 我们在迷你世界的地图已经圈到钱了?)"
+
+# 特别谢鸣
+# Mixiaozai_gen
+# xiaoywq
+# ruirui_0606
