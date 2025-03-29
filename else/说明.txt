@@ -1,0 +1,267 @@
+https://github.com/GenMode/Minecraft/wiki/Data-API：
+
+功能:
+	Custom Development Support：
+		耐久:
+			1.20.5+ 被原版收编
+		附魔:
+			1.21+ 被原版收编
+		装备?:
+			我不会
+			或许需要配合材质包
+			1.21.2+ 被原版收编
+		箱子GUI:
+			不好解释
+			1.21.4+ 不可用
+		自定义生物:
+			我不会
+			需要 1.21.2+
+		自定义唱片
+			1.21+ 被原版收编
+		自定义烧制内容信息:
+			我不会
+	
+	方块:
+		方块实体:
+			
+	函数:
+		Attribute：
+			1.21+ 不可用
+		计算:
+			function data_api:command/calculate
+			参数:
+			{
+				args:{
+					input:<输入1>,
+					input2:<输入2>,
+					operation:add|subtract|multiply|divide|square|square_root|range|mean|median|mode,
+					output:<输出(保存)位置>,
+					restricted_output:true
+				}
+			}
+			未指定的参数使用 0	
+			输入1 和 输入2 可以用 {min:<最小值>, max:<最大值>} 使用随机范围 或者一个整数
+			输出(保存)位置 可以
+				{block:"<坐标>", nbt:"<NBT>"} 保存至方块实体
+				{entity:"<选择器>", nbt:"<NBT>"} 保存至实体
+				{score:{name:"<积分项>", objective:"<积分版id>"}} 保存至积分项
+				{storage:"<存储id>", nbt:"<NBT>"} 保存至存储
+		命令:
+			我不会
+			需要 1.21.4+
+		禁用返回?:
+			1.20.3+ 不可用
+		损坏物品:
+			需要 1.21.4+
+			function data_api:command/damage_item
+			参数:
+			{
+				type:"block|entity",
+				target:"<坐标/目标选择器>",
+				slot:"<物品槽位>"
+				damage:{
+					break: true|false|force,
+					max_damage: #,
+					value: #
+				}
+			}
+			<目标选择器> 像data一样只能选择一个实体
+			damage.break: 没看出啥差别, force 就像直接替换空气
+			damage.max_damage: 最高可以使其损坏的耐久值
+			damage.value: 每次损坏的耐久值
+		丢出物品:
+			实际上这个相比于"丢出"更像转化
+			function data_api:command/drop_item
+			参数:{
+				slot:"<物品槽位>"
+			}
+		丢出多个物品:
+			需要 1.21.4+
+			懒得讲
+		玩家NBT修改:
+			需要 1.21.4+
+			只支持EnderItems, Dimension, Inventory, playerGameType, Pos, Rotation, SelectedItem, XpLevel
+			function data_api:command/set_player_data
+			参数:
+			{
+				nbt: "<NBT>",
+				value: "<值>"
+			}
+		射线检查:
+			我不会
+			需要 1.21.2+
+		删除实体:
+			一个没有掉落物,声音,粒子的人道主义处死
+			function data_api:entity/remove
+		Tag Thrower:
+			1.21.2+ 被原版收编
+	
+	物品修饰器:
+		随机染色:
+			data_api:function/dye_randomly
+		染色:
+			data_api:function/set_color/...
+		设置数量:
+			data_api:set_count/<add|remove|set>_...
+	
+	特殊组件:
+	(wtf这是怎么做到的)
+		允许被放在雕文书架:
+			custom_data={book:true}
+		攻击事件:
+			custom_data={attack:{
+				convert_item:{
+					id:<物品id>
+				},
+				delete:true,
+				entity_data:{...},
+				function:"<函数>",
+				loot:"<战利品表>",
+				max_uses:<最大使用次数>,
+				on_target:true,
+				particle:"<粒子>",
+				predicate:"<谓词>",
+				run_command:"<指令>",
+				sound:"<声音id>",
+				summon:"<实体id>",
+				swap:[...]
+			}}
+			当你"打到实体"后的触发项
+			convert_item: 将物品转化为另一个物品
+			delete: 是否触发后自我销毁
+			entity_data: 未知
+			function: 触发时执行的函数
+			loot: 触发时生成的战利品表 (有bug)
+			max_uses: 超过使用次数后无法触发
+			on_target: 是否以被攻击者执行
+			particle: 触发时在周围产生的粒子
+			predicate: 必须判断通过才可触发
+			run_command: 触发时运行的指令
+			sound: 触发时播放的声音
+			summon: 触发时召唤的实体
+			swap: 未知
+		使(食)用事件:
+			custom_data={consume:{
+				function:"...",
+				hand:"<mainhand|offhand>",
+				loot:"...",
+				particle:"...",
+				predicate:"...",
+				run_command:"...",
+				sound:"...",
+				summon:"..."
+			}}
+			当你"使(食)用"后的触发项
+			hand: 是否在对应主手/副手使用, 不填写视为所有
+			其他同上
+		无法拾取:
+			custom_data={drops_from_inventory:true}
+		食物:
+			1.20.5+ 被原版收编
+		防火:
+			1.20.5+ 被原版收编
+		物品事件:
+			custom_data={tick:{
+				convert_item:{...},
+				delete:true,
+				entity_data:{...},
+				function:"...",
+				loot:"...",
+				max_uses:...,
+				on_target:true,
+				particle:"..."
+				predicate:"...", 
+				run_command:"...",
+				slot:<物品槽位编号>,
+				sound:"...",
+				summon:"...",
+				swap:[...]
+			}}
+			当你放入背包后的触发项
+			slot: 只在对应槽位触发, 不填写视为所有
+			其他同上
+		丢弃事件:
+			custom_data={drop:{
+				convert_item:{...},
+				delete:true,
+				entity_data:{...},
+				function:"...",
+				loot:"...",
+				max_uses:...,
+				on_ground:true,
+				on_target:true,
+				particle:"...",
+				predicate:"...",
+				run_command:"...",
+				sound:"...",
+				summon:"...",
+				swap:[...]
+			}}
+			当丢弃/生成时的触发项
+			其他同上
+		可堆肥:
+			custom_data={compost:<1-100>|false|true}
+			似乎无法使用
+		Place on Crafter:
+			？
+		防止穿戴:
+			1.21.2+ 被原版收编
+		防止堆叠:
+			1.20.5+ 被原版收编
+		右键事件:
+			custom_data={use:{
+				animation:"block|bow|brush|crossbow|drink|eat|none|spear|spyglass|toot_horn",
+				apply_damage:true,
+				convert_item:{...},
+				cooldown:<冷却>,
+				delete:true,
+				disable_riding:true,
+				function:"...",
+				hand:"<mainhand|offhand>",
+				loot:"...",
+				max_uses:...,
+				particle:"...",
+				predicate:"...",
+				run_command:"...",
+				sound:"...",
+				summon:"...",
+				swap:[...]
+			}}
+			当你"右键"后的触发项
+			animation: 使用动画 (没啥用)
+			cooldown: 冷却时间(单位s)
+	
+	积分版:
+		match.Brightness
+			记录并设置展示实体的亮度
+		set.Light
+			在实体位置生成光源
+			光源等级为值
+	
+	谓词:
+		Attributes
+			data_api:attributes/...
+			检查attribute是否存在
+		药水效果
+			data_api:effects/...
+			检查是否拥有药水效果
+		状态
+			data_api:flags/...
+			检查一个实体的状态
+		玩家输入
+			需要 1.21.2+
+			data_api:input/...
+		光源等级
+			data_api:location_check/light/<is|max|min>_...
+			检查位置的光照强度
+		随机!!!
+			data_api:random_chance/..._of_100
+			一个百分比的概率通过
+	
+	存储:
+		我不会 :)
+	
+	设置:
+		懒得讲
+	卸载:
+		function data_api:random_chance/..._of_100
