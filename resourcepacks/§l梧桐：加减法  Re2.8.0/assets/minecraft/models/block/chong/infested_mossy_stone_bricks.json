@@ -1,0 +1,8 @@
+{
+	"credit": "Made by YSBB with Blockbench",
+	"parent": "block/cube_all",
+	"textures": {
+		"particle": "block/chong/chong4",
+		"all": "block/chong/chong4"
+	}
+}

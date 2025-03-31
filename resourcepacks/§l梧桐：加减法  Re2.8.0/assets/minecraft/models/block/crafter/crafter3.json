@@ -1,0 +1,23 @@
+{
+	"credit": "by YSBB  2024",
+	"ambientocclusion": false,
+	"parent": "block/block",
+	"textures": {
+		"6": "block/crafter/crafter3",
+		"particle": "block/crafter/crafter0"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#6", "cullface": "north"},
+				"east": {"uv": [8.5, 4.25, 12.5, 8.25], "texture": "#6", "cullface": "east"},
+				"south": {"uv": [8.5, 0, 12.5, 4], "texture": "#6", "cullface": "south"},
+				"west": {"uv": [4.25, 4.25, 8.25, 8.25], "texture": "#6", "cullface": "west"},
+				"up": {"uv": [4.25, 0, 8.25, 4], "rotation": 180, "texture": "#6", "cullface": "up"},
+				"down": {"uv": [0, 8.25, 4, 4.25], "texture": "#6", "cullface": "down"}
+			}
+		}
+	]
+}

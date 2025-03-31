@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"particle": "block/redstoneblock/piston_bottom",
+		"bottom": "block/redstoneblock/piston_bottom",
+		"side": "block/redstoneblock/piston_side2",
+		"top": "block/redstoneblock/piston_top_sticky"
+	}
+}

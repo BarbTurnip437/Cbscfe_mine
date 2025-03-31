@@ -1,0 +1,6 @@
+{
+    "parent": "block/redstoneblock/scouter",
+    "textures": {
+        "power": "block/redstoneblock/r01"
+    }
+}

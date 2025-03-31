@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/carpet",
+	"textures": {
+		"2": "block/snow_and_moss/moss_block",
+		"particle": "block/snow_and_moss/moss_block",
+		"wool": "block/snow_and_moss/moss_block2"
+	},
+	"elements": [
+		{
+			"from": [-0.01, 0, -0.01],
+			"to": [16.01, 1, 16.01],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 1], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 1], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [-0.016, -6, -0.016],
+			"to": [16.016, 0, 16.016],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -2, 0]},
+			"faces": {
+				"north": {"uv": [0, 6, 16, 0], "texture": "#wool", "cullface": "north"},
+				"east": {"uv": [0, 6, 16, 0], "texture": "#wool", "cullface": "east"},
+				"south": {"uv": [0, 6, 16, 0], "texture": "#wool", "cullface": "south"},
+				"west": {"uv": [0, 6, 16, 0], "texture": "#wool", "cullface": "west"}
+			}
+		}
+	]
+}

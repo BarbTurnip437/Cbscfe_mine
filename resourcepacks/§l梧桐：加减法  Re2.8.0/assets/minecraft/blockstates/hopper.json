@@ -1,0 +1,19 @@
+{
+  "variants": {
+"facing=down,enabled=true": {"model": "minecraft:block/redstoneblock/hopper1"},
+"facing=down,enabled=false": {"model": "minecraft:block/redstoneblock/hopper2"},
+
+"facing=east,enabled=true": {"model": "minecraft:block/redstoneblock/hopper_side1","y": 90},
+"facing=east,enabled=false": {"model": "minecraft:block/redstoneblock/hopper_side2","y": 90},
+
+
+"facing=north,enabled=true": {"model": "minecraft:block/redstoneblock/hopper_side1"},
+"facing=north,enabled=false": {"model": "minecraft:block/redstoneblock/hopper_side2"},
+
+"facing=south,enabled=true": {"model": "minecraft:block/redstoneblock/hopper_side1","y": 180},
+"facing=south,enabled=false": {"model": "minecraft:block/redstoneblock/hopper_side2","y": 180},
+
+"facing=west,enabled=true": {"model": "minecraft:block/redstoneblock/hopper_side1","y": 270},
+"facing=west,enabled=false": {"model": "minecraft:block/redstoneblock/hopper_side2","y": 270}
+  }
+}

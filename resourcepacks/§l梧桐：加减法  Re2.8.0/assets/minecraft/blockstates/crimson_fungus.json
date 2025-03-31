@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "": [  { "model": "block/mogu/crimson_fungus3" }
+, { "model": "block/mogu/crimson_fungus3", "y": 90 }
+, { "model": "block/mogu/crimson_fungus3", "y": 180 }
+, { "model": "block/mogu/crimson_fungus3", "y": 270 }
+, { "model": "block/mogu/crimson_fungus2" }
+, { "model": "block/mogu/crimson_fungus2", "y": 90 }
+, { "model": "block/mogu/crimson_fungus2", "y": 180 }
+, { "model": "block/mogu/crimson_fungus2", "y": 270 }
+, { "model": "block/mogu/crimson_fungus1" }
+, { "model": "block/mogu/crimson_fungus1", "y": 90 }
+, { "model": "block/mogu/crimson_fungus1", "y": 180 }
+, { "model": "block/mogu/crimson_fungus1", "y": 270 } ]   }
+}

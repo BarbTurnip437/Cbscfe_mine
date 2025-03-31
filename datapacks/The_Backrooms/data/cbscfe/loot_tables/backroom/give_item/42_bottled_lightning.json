@@ -1,0 +1,15 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "minecraft:item",
+            "name": "minecraft:dragon_breath",
+            "functions": [{
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"瓶装闪电\",\"color\":\"#00B7EB\",\"italic\":false}'},bottled_lightning:1}",
+                "conditions": []
+            }]
+        }]
+    }],
+    "functions": []
+}

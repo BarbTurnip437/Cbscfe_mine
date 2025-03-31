@@ -1,0 +1,17 @@
+{
+    "variants": {
+        "facing=down,triggered=false": { "model": "block/redstoneblock/dropper_vertical", "x": 180 },
+        "facing=up,triggered=false": { "model": "block/redstoneblock/dropper_vertical" },
+        "facing=north,triggered=false": { "model": "block/redstoneblock/dropper" },
+        "facing=south,triggered=false": { "model": "block/redstoneblock/dropper", "y": 180 },
+        "facing=west,triggered=false": { "model": "block/redstoneblock/dropper", "y": 270 },
+        "facing=east,triggered=false": { "model": "block/redstoneblock/dropper", "y": 90 },
+
+        "facing=down,triggered=true": { "model": "block/redstoneblock/dropper_vertical1", "x": 180 },
+        "facing=up,triggered=true": { "model": "block/redstoneblock/dropper_vertical1" },
+        "facing=north,triggered=true": { "model": "block/redstoneblock/dropper1" },
+        "facing=south,triggered=true": { "model": "block/redstoneblock/dropper1", "y": 180 },
+        "facing=west,triggered=true": { "model": "block/redstoneblock/dropper1", "y": 270 },
+        "facing=east,triggered=true": { "model": "block/redstoneblock/dropper1", "y": 90 }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:lantern"
+            }]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:bread",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": 20
+                }]
+            }],
+            "functions": []
+        },
+        {
+            "rolls": 3,
+            "entries": [{
+                "type": "minecraft:loot_table",
+                "name": "cbscfe:backroom/give_item/15_firesalt"
+            }]
+        },
+        {
+            "rolls": 3,
+            "entries": [{
+                "type": "minecraft:loot_table",
+                "name": "cbscfe:backroom/give_item/42_bottled_lightning"
+            }]
+        },
+        {
+            "rolls": 3,
+            "entries": [{
+                "type": "minecraft:loot_table",
+                "name": "cbscfe:backroom/give_item/1_almond_water"
+            }]
+        }
+    ],
+    "functions": []
+}

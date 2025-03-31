@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/redstoneblock/button_pressed",
+  "textures": {
+    "texture": "minecraft:block/redstoneblock/crimson_planks1"
+  }
+}

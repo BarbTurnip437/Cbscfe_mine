@@ -1,0 +1,22 @@
+关于数据包已经收录的循环命令方块你可以直接拆除
+
+1.基础物资命令方块
+改为一个单独的
+execute as @p unless data entity @s Inventory[{}] run loot give @s loot cbscfe:backroom/loot/starter_kit
+前面的大量判断是用来防止重复给予
+
+2.钥匙
+由于1.20.1并没有函数宏
+钥匙似乎无法在数据包中进行制作 (如果做出来也只能写死的话那还不如放在命令方块里)
+
+获取钥匙物品
+give @p tripwire_hook{display:{Name:'{"text":"钥匙","italic":false}',Lore:['{"text":"L1","color":"gray","italic":false}']},key:"L1_1"} 1
+key的命名格式为 L<使用该钥匙的层级编号>_<该层级的第几个门>
+(
+实际上我们会用跟上面一样的方法来防止重复给予
+execute as @p unless data entity @s Inventory[{tag:{key:"L1_1"}}] run give @s 
+tripwire_hook{display:{Name:'{"text":"钥匙","italic":false}',Lore:['{"text":"L1","color":"gray","italic":false}']},key:"L1_1"} 1
+)
+
+侦测玩家是否有钥匙
+execute if data entity @s Inventory[{tag:{key:"L1_1"}}]

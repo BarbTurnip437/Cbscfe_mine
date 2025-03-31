@@ -1,0 +1,15 @@
+{
+    "credit": "Made by YSBB with Blockbench",
+    "parent": "minecraft:item/template_spawn_egg_model",
+    "textures": {
+        "texture": "item/zombie_spawn_egg"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 3435
+            },
+            "model": "item/giant_spawn_egg"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/ore/deepslate_emerald_ore"
+    }
+  }
+}

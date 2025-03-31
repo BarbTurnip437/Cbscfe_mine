@@ -1,0 +1,29 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/fishing_rod"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "cast": 1
+            },
+            "model": "item/fishing_rod_cast"
+        },
+        {
+            "predicate": {
+                "damaged": 1,
+                "damage": 0.8
+            },
+            "model": "item/fishing_rod0"
+        },
+        {
+            "predicate": {
+                "damaged": 1,
+                "damage": 0.8,
+                "cast": 1
+            },
+            "model": "item/fishing_rod_cast0"
+        }
+    ]
+}

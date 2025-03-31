@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "power=0": { "model": "block/redstoneblock/target" },
+    "power=1": { "model": "block/redstoneblock/target1" },
+    "power=2": { "model": "block/redstoneblock/target1" },
+    "power=3": { "model": "block/redstoneblock/target1" },
+    "power=4": { "model": "block/redstoneblock/target1" },
+    "power=5": { "model": "block/redstoneblock/target1" },
+    "power=6": { "model": "block/redstoneblock/target1" },
+    "power=7": { "model": "block/redstoneblock/target1" },
+    "power=8": { "model": "block/redstoneblock/target1" },
+    "power=9": { "model": "block/redstoneblock/target1" },
+    "power=10": { "model": "block/redstoneblock/target1" },
+    "power=11": { "model": "block/redstoneblock/target1" },
+    "power=12": { "model": "block/redstoneblock/target1" },
+    "power=13": { "model": "block/redstoneblock/target1" },
+    "power=14": { "model": "block/redstoneblock/target1" },
+    "power=15": { "model": "block/redstoneblock/target1" }
+  }
+}

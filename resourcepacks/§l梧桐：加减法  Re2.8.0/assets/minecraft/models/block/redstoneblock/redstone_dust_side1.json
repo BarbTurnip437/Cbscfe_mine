@@ -1,0 +1,8 @@
+{
+	"credit": "Made by YSBB with Blockbench",
+	"parent": "block/redstone_dust_side",
+	"textures": {
+		"particle": "block/redstone_dust_line1",
+		"line": "block/redstone_dust_line1"
+	}
+}

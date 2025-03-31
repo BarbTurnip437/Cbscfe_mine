@@ -1,0 +1,20 @@
+{
+	"credit": "Made by YSBB with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [16, 32],
+	"textures": {
+		"2": "block/vine1",
+		"particle": "block/vine1"
+	},
+	"elements": [
+		{
+			"from": [0, -5, 0.8],
+			"to": [16, 16, 0.8],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [16, 0, 0, 10.5], "texture": "#2", "cullface": "north", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 10.5], "texture": "#2", "tintindex": 0}
+			}
+		}
+	]
+}

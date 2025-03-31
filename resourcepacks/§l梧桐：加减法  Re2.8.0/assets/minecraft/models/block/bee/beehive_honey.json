@@ -1,0 +1,24 @@
+{
+	"credit": "Made by YSBB with Blockbench",
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+		"particle": "block/bee/beehive_end",
+		"bottom": "block/bee/beehive_end",
+		"side": "block/bee/beehive_side1",
+		"front": "block/bee/beehive_front_honey"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#front", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		}
+	]
+}

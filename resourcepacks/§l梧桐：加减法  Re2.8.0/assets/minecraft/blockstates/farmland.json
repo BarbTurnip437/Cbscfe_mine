@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "moisture=0": {
+      "model": "minecraft:block/farmland/farmland1"
+    },
+    "moisture=1": {
+      "model": "minecraft:block/farmland/farmland1"
+    },
+    "moisture=2": {
+      "model": "minecraft:block/farmland/farmland2"
+    },
+    "moisture=3": {
+      "model": "minecraft:block/farmland/farmland2"
+    },
+    "moisture=4": {
+      "model": "minecraft:block/farmland/farmland3"
+    },
+    "moisture=5": {
+      "model": "minecraft:block/farmland/farmland3"
+    },
+    "moisture=6": {
+      "model": "minecraft:block/farmland/farmland4"
+    },
+    "moisture=7": {
+      "model": "minecraft:block/farmland/farmland4"
+    }
+  }
+}

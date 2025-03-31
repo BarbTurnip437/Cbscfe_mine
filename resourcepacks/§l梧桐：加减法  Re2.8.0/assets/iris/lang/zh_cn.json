@@ -1,0 +1,7 @@
+{
+  "iris.load.failure.shader": "The shaderpack failed to load! Please report the error to the shader developer. ",
+  "iris.load.failure.generic": "Iris encountered an issue trying to load the shader; please report this to Iris developers. ",
+  "iris.keybind.wireframe": "Wireframe (SP only)",
+  "options.iris.colorSpace": "色彩空间",
+  "options.iris.colorSpace.sodium_tooltip": "将屏幕色彩转换的颜色空间,适用于着色器包之上.如果不确定，请使用sRGB.\n§a棒冰温馨小提示:即颜色模型,用来表示颜色的方式,加载某些光影后改变它会使得画面呈现不同的滤镜质感"
+}

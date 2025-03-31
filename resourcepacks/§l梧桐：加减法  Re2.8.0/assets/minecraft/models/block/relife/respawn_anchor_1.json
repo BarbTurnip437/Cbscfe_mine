@@ -1,0 +1,10 @@
+{
+	"credit": "Made by YSBB with Blockbench",
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"top": "block/relife/respawn_anchor_top1",
+		"particle": "block/relife/respawn_anchor_bottom1",
+		"bottom": "block/relife/respawn_anchor_bottom1",
+		"side": "block/relife/respawn_anchor_side1"
+	}
+}

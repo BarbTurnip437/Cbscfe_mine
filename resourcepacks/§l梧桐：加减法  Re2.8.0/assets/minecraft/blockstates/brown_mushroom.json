@@ -1,0 +1,23 @@
+{
+    "variants": {
+        "": [  { "model": "block/mogu/brown_mushroom1" }
+, { "model": "block/mogu/brown_mushroom1", "y": 90 }
+, { "model": "block/mogu/brown_mushroom1", "y": 180 }
+, { "model": "block/mogu/brown_mushroom1", "y": 270 }
+, { "model": "block/mogu/brown_mushroom2" }
+, { "model": "block/mogu/brown_mushroom2", "y": 90 }
+, { "model": "block/mogu/brown_mushroom2", "y": 180 }
+, { "model": "block/mogu/brown_mushroom2", "y": 270 }
+, { "model": "block/mogu/brown_mushroom3" }
+, { "model": "block/mogu/brown_mushroom3", "y": 90 }
+, { "model": "block/mogu/brown_mushroom3", "y": 180 }
+, { "model": "block/mogu/brown_mushroom3", "y": 270 }
+, { "model": "block/mogu/brown_mushroom5" }
+, { "model": "block/mogu/brown_mushroom5", "y": 90 }
+, { "model": "block/mogu/brown_mushroom5", "y": 180 }
+, { "model": "block/mogu/brown_mushroom5", "y": 270 }
+, { "model": "block/mogu/brown_mushroom4" }
+, { "model": "block/mogu/brown_mushroom4", "y": 90 }
+, { "model": "block/mogu/brown_mushroom4", "y": 180 }
+, { "model": "block/mogu/brown_mushroom4", "y": 270 } ]   }
+}

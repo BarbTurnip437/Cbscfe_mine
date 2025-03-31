@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "": [  { "model": "block/mogu/red_mushroom1", "weight": 6 }
+, { "model": "block/mogu/red_mushroom1", "y": 90, "weight": 6 }
+, { "model": "block/mogu/red_mushroom1", "y": 180, "weight": 6 }
+, { "model": "block/mogu/red_mushroom1", "y": 270, "weight": 6 }
+, { "model": "block/mogu/red_mushroom2", "weight": 10 }
+, { "model": "block/mogu/red_mushroom2", "y": 90, "weight":10 }
+, { "model": "block/mogu/red_mushroom2", "y": 180, "weight": 10 }
+, { "model": "block/mogu/red_mushroom2", "y": 270, "weight": 10 }
+, { "model": "block/mogu/red_mushroom3", "weight": 6 }
+, { "model": "block/mogu/red_mushroom3", "y": 90, "weight": 6 }
+, { "model": "block/mogu/red_mushroom3", "y": 180, "weight": 6 }
+, { "model": "block/mogu/red_mushroom3", "y": 270, "weight": 6 }
+, { "model": "block/mogu/red_mushroom4", "weight": 3 }
+, { "model": "block/mogu/red_mushroom4", "y": 90, "weight": 3}
+, { "model": "block/mogu/red_mushroom4", "y": 180, "weight": 3 }
+, { "model": "block/mogu/red_mushroom4", "y": 270, "weight": 3 } ]   }
+}

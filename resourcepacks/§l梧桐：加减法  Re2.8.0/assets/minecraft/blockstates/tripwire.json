@@ -1,0 +1,236 @@
+{
+  "variants": {
+    "attached=false,east=false,north=false,south=false,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ns1"
+    },
+    "attached=false,east=false,north=false,south=false,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_n1",
+      "y": 270
+    },
+    "attached=false,east=false,north=false,south=true,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_n1",
+      "y": 180
+    },
+    "attached=false,east=false,north=false,south=true,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne1",
+      "y": 180
+    },
+    "attached=false,east=false,north=true,south=false,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_n1"
+    },
+    "attached=false,east=false,north=true,south=false,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne1",
+      "y": 270
+    },
+    "attached=false,east=false,north=true,south=true,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ns1"
+    },
+    "attached=false,east=false,north=true,south=true,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse1",
+      "y": 180
+    },
+    "attached=false,east=true,north=false,south=false,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_n1",
+      "y": 90
+    },
+    "attached=false,east=true,north=false,south=false,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_ns1",
+      "y": 90
+    },
+    "attached=false,east=true,north=false,south=true,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne1",
+      "y": 90
+    },
+    "attached=false,east=true,north=false,south=true,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse1",
+      "y": 90
+    },
+    "attached=false,east=true,north=true,south=false,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne1"
+    },
+    "attached=false,east=true,north=true,south=false,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse1",
+      "y": 270
+    },
+    "attached=false,east=true,north=true,south=true,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse1"
+    },
+    "attached=false,east=true,north=true,south=true,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nsew1"
+    },
+    "attached=true,east=false,north=false,south=false,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ns1"
+    },
+    "attached=true,east=false,north=false,south=false,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_n1",
+      "y": 270
+    },
+    "attached=true,east=false,north=false,south=true,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_n1",
+      "y": 180
+    },
+    "attached=true,east=false,north=false,south=true,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne1",
+      "y": 180
+    },
+    "attached=true,east=false,north=true,south=false,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_n1"
+    },
+    "attached=true,east=false,north=true,south=false,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne1",
+      "y": 270
+    },
+    "attached=true,east=false,north=true,south=true,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ns1"
+    },
+    "attached=true,east=false,north=true,south=true,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse1",
+      "y": 180
+    },
+    "attached=true,east=true,north=false,south=false,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_n1",
+      "y": 90
+    },
+    "attached=true,east=true,north=false,south=false,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_ns1",
+      "y": 90
+    },
+    "attached=true,east=true,north=false,south=true,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne1",
+      "y": 90
+    },
+    "attached=true,east=true,north=false,south=true,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse1",
+      "y": 90
+    },
+    "attached=true,east=true,north=true,south=false,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne1"
+    },
+    "attached=true,east=true,north=true,south=false,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse1",
+      "y": 270
+    },
+    "attached=true,east=true,north=true,south=true,powered=true,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse1"
+    },
+    "attached=true,east=true,north=true,south=true,powered=true,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nsew1"
+    },
+    "attached=false,east=false,north=false,south=false,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ns"
+    },
+    "attached=false,east=false,north=false,south=false,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_n",
+      "y": 270
+    },
+    "attached=false,east=false,north=false,south=true,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_n",
+      "y": 180
+    },
+    "attached=false,east=false,north=false,south=true,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne",
+      "y": 180
+    },
+    "attached=false,east=false,north=true,south=false,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_n"
+    },
+    "attached=false,east=false,north=true,south=false,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne",
+      "y": 270
+    },
+    "attached=false,east=false,north=true,south=true,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ns"
+    },
+    "attached=false,east=false,north=true,south=true,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse",
+      "y": 180
+    },
+    "attached=false,east=true,north=false,south=false,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_n",
+      "y": 90
+    },
+    "attached=false,east=true,north=false,south=false,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_ns",
+      "y": 90
+    },
+    "attached=false,east=true,north=false,south=true,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne",
+      "y": 90
+    },
+    "attached=false,east=true,north=false,south=true,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse",
+      "y": 90
+    },
+    "attached=false,east=true,north=true,south=false,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_ne"
+    },
+    "attached=false,east=true,north=true,south=false,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse",
+      "y": 270
+    },
+    "attached=false,east=true,north=true,south=true,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_nse"
+    },
+    "attached=false,east=true,north=true,south=true,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_nsew"
+    },
+    "attached=true,east=false,north=false,south=false,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_ns"
+    },
+    "attached=true,east=false,north=false,south=false,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_n",
+      "y": 270
+    },
+    "attached=true,east=false,north=false,south=true,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_n",
+      "y": 180
+    },
+    "attached=true,east=false,north=false,south=true,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_ne",
+      "y": 180
+    },
+    "attached=true,east=false,north=true,south=false,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_n"
+    },
+    "attached=true,east=false,north=true,south=false,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_ne",
+      "y": 270
+    },
+    "attached=true,east=false,north=true,south=true,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_ns"
+    },
+    "attached=true,east=false,north=true,south=true,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_nse",
+      "y": 180
+    },
+    "attached=true,east=true,north=false,south=false,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_n",
+      "y": 90
+    },
+    "attached=true,east=true,north=false,south=false,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_ns",
+      "y": 90
+    },
+    "attached=true,east=true,north=false,south=true,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_ne",
+      "y": 90
+    },
+    "attached=true,east=true,north=false,south=true,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_nse",
+      "y": 90
+    },
+    "attached=true,east=true,north=true,south=false,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_ne"
+    },
+    "attached=true,east=true,north=true,south=false,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_nse",
+      "y": 270
+    },
+    "attached=true,east=true,north=true,south=true,powered=false,west=false": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_nse"
+    },
+    "attached=true,east=true,north=true,south=true,powered=false,west=true": {
+      "model": "minecraft:block/redstoneblock/tripwire_attached_nsew"
+    }
+  }
+}

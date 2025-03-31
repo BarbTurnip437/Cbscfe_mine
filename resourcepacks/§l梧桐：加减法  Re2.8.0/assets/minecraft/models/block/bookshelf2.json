@@ -1,0 +1,9 @@
+{
+	"credit": "Made by YSBB with Blockbench",
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"particle": "block/oak_planks",
+		"end": "block/oak_planks",
+		"side": "block/bookshelf2"
+	}
+}

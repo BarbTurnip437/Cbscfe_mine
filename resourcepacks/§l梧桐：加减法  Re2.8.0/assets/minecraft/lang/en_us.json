@@ -1,0 +1,276 @@
+{
+      "container.brewing": "§f🍂                                                                       ",
+      "container.inventory": "",
+      "container.loom":"",
+      "container.repair":"",
+      "container.crafter": "",
+
+
+      "multiplayer.unsecureserver.toast.title": "",
+      "multiplayer.unsecureserver.toast": "",
+
+
+      "container.enderchest": "            Ender Chest   ",
+      "container.hopper": "                Hopper",
+      "container.shulkerBox": "            Shulker Box   ",
+      "container.chest": "                Chest",
+      "container.upgrade": "  Upgrade Gear",
+      "container.chestDouble": "            Large Chest",
+      "container.barrel": "                Barrel",
+      "entity.minecraft.chest_boat": "           Chest Boat",
+      "entity.minecraft.hopper_minecart": "          Hopper Minecart",
+      "entity.minecraft.chest_minecart": "           Chest Minecart",
+
+
+
+
+      "container.cartography_table": "",
+      "container.stonecutter": "",
+      "container.grindstone_title": "",
+      "container.enchant": "",
+      "container.crafting": "",
+
+
+      "block.minecraft.beacon.primary": "",
+      "block.minecraft.beacon.secondary": "",
+
+      "menu.options": "Options",
+      "menu.shareToLan": "LAN",
+      "menu.sendFeedback": "Feedback",
+      "menu.online": "Realms",
+      "menu.playerReporting": "Social",
+      "menu.reportBugs": "Bugs",
+
+
+      "options.skinCustomisation": "Skin",
+      "options.controls": "Controls",
+      "options.language": "Language",
+      "options.chat.title": "Chat",
+      "options.chat": "Chat",
+    
+      "options.resourcepack": "Resource",
+      "options.accessibility.title": "Accessibility",
+      "options.accessibility": "Accessibility",
+    
+      "options.sounds": "Sounds",
+      "options.telemetry": "Telemetry",
+      "options.credits_and_attribution": "Credits",
+      "options.online": "Online",
+      "options.video": "Video",
+
+
+
+      "item.minecraft.music_disc_precipice.desc": "Aaron Cherof - Precipice  §6Redstone Output 13",
+      "item.minecraft.music_disc_creator.desc": "Lena Raine - Creator  §6Redstone Output 12",
+      "item.minecraft.music_disc_creator_music_box.desc": "Lena Raine - Creator (Music Box)  §6Redstone Output 11",
+      "item.minecraft.music_disc_5.desc": "Samuel Åberg - 5  §6Redstone Output 15",
+      "item.minecraft.music_disc_11.desc": "C418 - 11  §6Redstone Output 11",
+      "item.minecraft.music_disc_13.desc": "C418 - 13  §6Redstone Output 1",
+      "item.minecraft.music_disc_blocks.desc": "C418 - blocks  §6Redstone Output 3",
+      "item.minecraft.music_disc_cat.desc": "C418 - cat  §6Redstone Output 2",
+      "item.minecraft.music_disc_chirp.desc": "C418 - chirp  §6Redstone Output 4",
+      "item.minecraft.music_disc_far.desc": "C418 - far  §6Redstone Output 5",
+      "item.minecraft.music_disc_mall.desc": "C418 - mall  §6Redstone Output 6",
+      "item.minecraft.music_disc_mellohi.desc": "C418 - mellohi  §6Redstone Output 7",
+      "item.minecraft.music_disc_otherside.desc": "Lena Raine - otherside  §6Redstone Output 14",
+      "item.minecraft.music_disc_pigstep.desc": "Lena Raine - Pigstep  §6Redstone Output 13",
+      "item.minecraft.music_disc_relic.desc": "Aaron Cherof - Relic  §6Redstone Output 14",
+      "item.minecraft.music_disc_stal.desc": "C418 - stal  §6Redstone Output 8",
+      "item.minecraft.music_disc_strad.desc": "C418 - strad  §6Redstone Output 9",
+      "item.minecraft.music_disc_wait.desc": "C418 - wait  §6Redstone Output 12",
+      "item.minecraft.music_disc_ward.desc": "C418 - ward  §6Redstone Output 10",
+
+      "jukebox_song.minecraft.5": "Samuel Åberg - 5  §6Redstone Output 15",
+      "jukebox_song.minecraft.11": "C418 - 11  §6Redstone Output 11",
+      "jukebox_song.minecraft.13": "C418 - 13  §6Redstone Output 1",
+      "jukebox_song.minecraft.blocks": "C418 - blocks  §6Redstone Output 3",
+      "jukebox_song.minecraft.cat": "C418 - cat  §6Redstone Output 2",
+      "jukebox_song.minecraft.chirp": "C418 - chirp  §6Redstone Output 4",
+      "jukebox_song.minecraft.creator": "Lena Raine - Creator  §6Redstone Output 12",
+      "jukebox_song.minecraft.creator_music_box": "Lena Raine - Creator (Music Box)  §6Redstone Output 11",
+      "jukebox_song.minecraft.far": "C418 - far  §6Redstone Output 5",
+      "jukebox_song.minecraft.mall": "C418 - mall  §6Redstone Output 6",
+      "jukebox_song.minecraft.mellohi": "C418 - mellohi  §6Redstone Output 7",
+      "jukebox_song.minecraft.otherside": "Lena Raine - otherside  §6Redstone Output 14",
+      "jukebox_song.minecraft.pigstep": "Lena Raine - Pigstep  §6Redstone Output 13",
+      "jukebox_song.minecraft.precipice": "Aaron Cherof - Precipice  §6Redstone Output 13",
+      "jukebox_song.minecraft.relic": "Aaron Cherof - Relic  §6Redstone Output 14",
+      "jukebox_song.minecraft.stal": "C418 - stal  §6Redstone Output 8",
+      "jukebox_song.minecraft.strad": "C418 - strad  §6Redstone Output 9",
+      "jukebox_song.minecraft.wait": "C418 - wait  §6Redstone Output 12",
+      "jukebox_song.minecraft.ward": "C418 - ward  §6Redstone Output 10",
+
+
+
+
+      "enchantment.minecraft.mending": "Mending ⭐",
+
+
+
+
+
+
+
+      "subtitles.entity.creeper.primed": "§a§lCreeper: hiss~~~~~~",
+      "subtitles.entity.fishing_bobber.splash": "§6§lFishing Bobber: Caught a fish!",
+      "subtitles.entity.generic.splash": "§8Splash",
+
+
+
+
+
+
+      "createWorld.preparing": "Praying upon Cbscfe the greatest of all",
+
+
+      "lanServer.scanning": "Scanning for games",
+      "multiplayer.title": "",
+      "selectWorld.title": "",
+
+
+
+      "pack.incompatible.confirm.title": "Wait a second!",
+      "pack.incompatible.confirm.new": "This pack was made for a newer version of Minecraft and may not work correctly. But it won't break your PC.",
+      "pack.incompatible.confirm.old": "This pack was made for an older version of Minecraft and may no longer work correctly. But it won't break your PC.",
+      "pack.incompatible": "Fun Facts",
+      "pack.incompatible.new": "This pack is made for a newer Minecraft",
+      "pack.incompatible.old": "This pack is made for an older Minecraft",
+
+
+      "options.mouse_settings": "Mouse",
+      "controls.keybinds": "Keys",
+
+
+
+
+
+
+      "gui.socialInteractions.title": "Social",
+      "tutorial.socialInteractions.title": "Social",
+
+
+
+
+
+
+
+
+
+
+      "block.minecraft.repeater": "Repeater",
+      "block.minecraft.comparator": "Comparator",
+
+
+
+
+
+      "item.minecraft.tipped_arrow.effect.awkward": "Awkward Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.empty": "Uncraftable Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.fire_resistance": "Fire Resistance Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.harming": "Harming Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.healing": "Healing Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.infested": "Infestation Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.invisibility": "Invisibility Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.leaping": "Leaping Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.levitation": "Levitation Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.luck": "Luck Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.mundane": "Mundane Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.night_vision": "Night Vision Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.oozing": "Oozing Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.poison": "Poison Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.regeneration": "Regeneration Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.slow_falling": "Slow Falling Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.slowness": "Slowness Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.strength": "Strength Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.swiftness": "Swiftness Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.thick": "Thick Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.turtle_master": "Turtle Master Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.water": "Splashing Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.water_breathing": "Water Breathing",
+      "item.minecraft.tipped_arrow.effect.weakness": "Weakness Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.weaving": "Weaving Tipped Arrow",
+      "item.minecraft.tipped_arrow.effect.wind_charged": "Wind Charging Tipped Arrow",
+      
+      "item.minecraft.lingering_potion.effect.awkward": "Awkward Lingering Potion",
+      "item.minecraft.lingering_potion.effect.empty": "Uncraftable Lingering Potion",
+      "item.minecraft.lingering_potion.effect.fire_resistance": "Fire Resistance Lingering Potion",
+      "item.minecraft.lingering_potion.effect.harming": "Harming Lingering Potion",
+      "item.minecraft.lingering_potion.effect.healing": "Healing Lingering Potion",
+      "item.minecraft.lingering_potion.effect.infested": "Infestation Lingering Potion",
+      "item.minecraft.lingering_potion.effect.invisibility": "Invisibility Lingering Potion",
+      "item.minecraft.lingering_potion.effect.leaping": "Leaping Lingering Potion",
+      "item.minecraft.lingering_potion.effect.levitation": "Levitation Lingering Potion",
+      "item.minecraft.lingering_potion.effect.luck": "Luck Lingering Potion",
+      "item.minecraft.lingering_potion.effect.mundane": "Mundane Lingering Potion",
+      "item.minecraft.lingering_potion.effect.night_vision": "Night Vision Lingering Potion",
+      "item.minecraft.lingering_potion.effect.oozing": "Oozing Lingering Potion",
+      "item.minecraft.lingering_potion.effect.poison": "Poison Lingering Potion",
+      "item.minecraft.lingering_potion.effect.regeneration": "Regeneration Lingering Potion",
+      "item.minecraft.lingering_potion.effect.slow_falling": "Slow Falling Lingering Potion",
+      "item.minecraft.lingering_potion.effect.slowness": "Slowness Lingering Potion",
+      "item.minecraft.lingering_potion.effect.strength": "Strength Lingering Potion",
+      "item.minecraft.lingering_potion.effect.swiftness": "Swiftness Lingering Potion",
+      "item.minecraft.lingering_potion.effect.thick": "Thick Lingering Potion",
+      "item.minecraft.lingering_potion.effect.turtle_master": "Turtle Master Lingering Potion",
+      "item.minecraft.lingering_potion.effect.water": "Lingering Water Bottle",
+      "item.minecraft.lingering_potion.effect.water_breathing": "Water Breathing Lingering Potion",
+      "item.minecraft.lingering_potion.effect.weakness": "Weakness Lingering Potion",
+      "item.minecraft.lingering_potion.effect.weaving": "Weaving Lingering Potion",
+      "item.minecraft.lingering_potion.effect.wind_charged": "Wind Charging Lingering Potion",
+
+      "item.minecraft.potion.effect.awkward": "Awkward Potion",
+      "item.minecraft.potion.effect.empty": "Uncraftable Potion",
+      "item.minecraft.potion.effect.fire_resistance": "Fire Resistance Potion",
+      "item.minecraft.potion.effect.harming": "Harming Potion",
+      "item.minecraft.potion.effect.healing": "Healing",
+      "item.minecraft.potion.effect.infested": "Infestation Potion",
+      "item.minecraft.potion.effect.invisibility": "Invisibility Potion",
+      "item.minecraft.potion.effect.leaping": "Leaping Potion",
+      "item.minecraft.potion.effect.levitation": "Levitation Potion",
+      "item.minecraft.potion.effect.luck": "Luck Potion",
+      "item.minecraft.potion.effect.mundane": "Mundane Potion",
+      "item.minecraft.potion.effect.night_vision": "Night Vision Potion",
+      "item.minecraft.potion.effect.oozing": "Oozing Potion",
+      "item.minecraft.potion.effect.poison": "Poison Potion",
+      "item.minecraft.potion.effect.regeneration": "Regeneration Potion",
+      "item.minecraft.potion.effect.slow_falling": "Slow Falling Potion",
+      "item.minecraft.potion.effect.slowness": "Slowness Potion",
+      "item.minecraft.potion.effect.strength": "Strength Potion",
+      "item.minecraft.potion.effect.swiftness": "Swiftness Potion",
+      "item.minecraft.potion.effect.thick": "Thick Potion",
+      "item.minecraft.potion.effect.turtle_master": "Turtle Master Potion",
+      "item.minecraft.potion.effect.water": "Water Bottle Potion",
+      "item.minecraft.potion.effect.water_breathing": "Water Breathing Potion",
+      "item.minecraft.potion.effect.weakness": "Weakness Potion",
+      "item.minecraft.potion.effect.weaving": "Weaving Potion",
+      "item.minecraft.potion.effect.wind_charged": "Wind Charging Potion",
+
+      "item.minecraft.splash_potion.effect.awkward": "Awkward Splash Potion",
+      "item.minecraft.splash_potion.effect.empty": "Uncraftable Splash Potion",
+      "item.minecraft.splash_potion.effect.fire_resistance": "Fire Resistance Splash Potion",
+      "item.minecraft.splash_potion.effect.harming": "Harming Splash Potion",
+      "item.minecraft.splash_potion.effect.healing": "Healing Splash Potion",
+      "item.minecraft.splash_potion.effect.infested": "Infestation Splash Potion",
+      "item.minecraft.splash_potion.effect.invisibility": "Invisibility Splash Potion",
+      "item.minecraft.splash_potion.effect.leaping": "Leaping Splash Potion",
+      "item.minecraft.splash_potion.effect.levitation": "Levitation Splash Potion",
+      "item.minecraft.splash_potion.effect.luck": "Luck Splash Potion",
+      "item.minecraft.splash_potion.effect.mundane": "Mundane Splash Potion",
+      "item.minecraft.splash_potion.effect.night_vision": "Night Vision Splash Potion",
+      "item.minecraft.splash_potion.effect.oozing": "Oozing Splash Potion",
+      "item.minecraft.splash_potion.effect.poison": "Poison Splash Potion",
+      "item.minecraft.splash_potion.effect.regeneration": "Regeneration Splash Potion",
+      "item.minecraft.splash_potion.effect.slow_falling": "Slow Falling Splash Potion",
+      "item.minecraft.splash_potion.effect.slowness": "Slowness Splash Potion",
+      "item.minecraft.splash_potion.effect.strength": "Strength Splash Potion",
+      "item.minecraft.splash_potion.effect.swiftness": "Swiftness Splash Potion",
+      "item.minecraft.splash_potion.effect.thick": "Thick Splash Potion",
+      "item.minecraft.splash_potion.effect.turtle_master": "Turtle Master Splash Potion",
+      "item.minecraft.splash_potion.effect.water": "Splash Water Bottle",
+      "item.minecraft.splash_potion.effect.water_breathing": "Water Breathing Splash Potion",
+      "item.minecraft.splash_potion.effect.weakness": "Weakness Splash Potion",
+      "item.minecraft.splash_potion.effect.weaving": "Weaving Splash Potion",
+      "item.minecraft.splash_potion.effect.wind_charged": "Wind Charging Splash Potion"
+      
+
+}

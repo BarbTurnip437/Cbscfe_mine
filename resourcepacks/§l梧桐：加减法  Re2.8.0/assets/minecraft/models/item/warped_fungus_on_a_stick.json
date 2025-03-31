@@ -1,0 +1,15 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/warped_fungus_on_a_stick"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "damaged": 1,
+                "damage": 0.80
+            },
+            "model": "item/warped_fungus_on_a_stick0"
+        }
+    ]
+}

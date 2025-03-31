@@ -1,0 +1,23 @@
+{
+    "variants": {
+        "": [  { "model": "block/mogu/warped_fungus5" }
+, { "model": "block/mogu/warped_fungus5", "y": 90 }
+, { "model": "block/mogu/warped_fungus5", "y": 180 }
+, { "model": "block/mogu/warped_fungus5", "y": 270 }
+, { "model": "block/mogu/warped_fungus4" }
+, { "model": "block/mogu/warped_fungus4", "y": 90 }
+, { "model": "block/mogu/warped_fungus4", "y": 180 }
+, { "model": "block/mogu/warped_fungus4", "y": 270 }
+, { "model": "block/mogu/warped_fungus2" }
+, { "model": "block/mogu/warped_fungus2", "y": 90 }
+, { "model": "block/mogu/warped_fungus2", "y": 180 }
+, { "model": "block/mogu/warped_fungus2", "y": 270 }
+, { "model": "block/mogu/warped_fungus3" }
+, { "model": "block/mogu/warped_fungus3", "y": 90 }
+, { "model": "block/mogu/warped_fungus3", "y": 180 }
+, { "model": "block/mogu/warped_fungus3", "y": 270 }
+, { "model": "block/mogu/warped_fungus1" }
+, { "model": "block/mogu/warped_fungus1", "y": 90 }
+, { "model": "block/mogu/warped_fungus1", "y": 180 }
+, { "model": "block/mogu/warped_fungus1", "y": 270 } ]   }
+}

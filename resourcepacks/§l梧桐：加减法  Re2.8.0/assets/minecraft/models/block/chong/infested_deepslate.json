@@ -1,0 +1,9 @@
+{
+	"credit": "Made by YSBB with Blockbench",
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"particle": "block/chong/chong8",
+		"end": "block/chong/chong8",
+		"side": "block/chong/chong7"
+	}
+}

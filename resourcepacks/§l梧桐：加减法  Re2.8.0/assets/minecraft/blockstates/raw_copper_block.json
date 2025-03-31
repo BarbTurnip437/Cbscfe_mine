@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/ore/raw_copper_block"
+    }
+  }
+}

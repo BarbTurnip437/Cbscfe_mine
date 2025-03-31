@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "inverted=false": {
+      "model": "minecraft:block/redstoneblock/daylight_detector"
+    },
+    "inverted=true": {
+      "model": "minecraft:block/redstoneblock/daylight_detector_inverted"
+    }
+  }
+}

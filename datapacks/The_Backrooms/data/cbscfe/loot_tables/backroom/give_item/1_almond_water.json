@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:1200},{Id:10b,Amplifier:1b,Duration:1200},{Id:23b,Amplifier:0b,Duration:600}],display:{Name:'{\"text\":\"杏仁水\",\"color\":\"#FFFFCC\",\"italic\":false}'},CustomPotionColor:16777164}",
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}
