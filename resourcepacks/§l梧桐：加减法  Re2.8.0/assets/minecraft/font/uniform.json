@@ -1,8 +1,0 @@
-{
-    "providers": [
-        {"type": "bitmap","file": "minecraft:font/lianyaotai.png","height": 215,"ascent": 13,"chars": ["\ud83c\udf42"]},
-        {"type": "bitmap","file": "minecraft:font/zmzs1.png","height": 100,"ascent": 100,"chars": ["\ud83d\ude00"]},
-        {"type": "bitmap","file": "minecraft:font/zmzs11.png","height": 50,"ascent": 20,"chars": ["\ud83d\ude07"]},
-        {"type": "bitmap","file": "minecraft:font/zmzs111.png","height": 30,"ascent": 30,"chars": ["\ud83c\udf4d"]}
-    ]    
-}

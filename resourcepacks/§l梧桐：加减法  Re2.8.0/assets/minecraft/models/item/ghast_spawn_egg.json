@@ -1,7 +1,0 @@
-{
-    "credit": "Made by YSBB with Blockbench",
-    "parent": "minecraft:item/template_spawn_egg_model",
-    "textures": {
-        "texture": "item/ghast_spawn_egg"
-    }
-}

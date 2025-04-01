@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/redstoneblock/button_pressed",
-  "textures": {
-    "texture": "minecraft:block/redstoneblock/oak_planks1"
-  }
-}

@@ -1,8 +1,0 @@
-{
-	"credit": "by YSBB  2024",
-	"ambientocclusion": false,
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/ore/nether_gold_ore"
-  }
-}

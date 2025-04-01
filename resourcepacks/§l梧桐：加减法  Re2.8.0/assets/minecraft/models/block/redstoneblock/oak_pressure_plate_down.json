@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/redstoneblock/pressure_plate_down",
-  "textures": {
-    "texture": "minecraft:block/redstoneblock/oak_planks"
-  }
-}

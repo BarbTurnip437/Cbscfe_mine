@@ -1,9 +1,0 @@
-{
-	"credit": "Made by YSBB with Blockbench",
-	"parent": "minecraft:block/cube_column",
-	"textures": {
-		"end": "block/redstoneblock/target_top",
-		"particle": "block/redstoneblock/target_side",
-		"side": "block/redstoneblock/target_side"
-	}
-}
