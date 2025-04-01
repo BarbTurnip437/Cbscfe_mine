@@ -16,7 +16,7 @@ Kit PVP 不会向下兼容
 
 * [X] 记录玩家连杀
 * [X] 加入记录连击
-* [ ] 加入说明文档
+* [X] 加入说明文档
 * [ ] 使用进度优化
 
 ### Kit PVP ![img](https://img.shields.io/badge/v2.6.2-blue)
