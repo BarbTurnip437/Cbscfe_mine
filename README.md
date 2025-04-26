@@ -21,18 +21,15 @@ Kit PVP 不会向下兼容
 
 ### Kit PVP ![img](https://img.shields.io/badge/v2.6.2-blue)
 
-- [ ] 加入[#6](https://github.com/BarbTurnip437/Cbscfe_mine/issues/6)
-- [ ] 使用[前置](https://modrinth.com/datapack/gens-data-api)重写
-- [ ] 一些
-- [ ] 修复[#7](https://github.com/BarbTurnip437/Cbscfe_mine/issues/7)
+- [ ] 重写
 
 ### NO Drop Item ![img](https://img.shields.io/badge/v1.1-blue)
 
 * [ ] 暂无
 
-### show_CBC ![img](https://img.shields.io/badge/v1.0-blue)
+### Command Block Comment ![img](https://img.shields.io/badge/v2.0.2-blue)
 
-* [ ] 盔甲架文字模式
+* [ ] 暂无
 
 ### Teleport to Spawn ![img](https://img.shields.io/badge/v1.1-blue)
 
