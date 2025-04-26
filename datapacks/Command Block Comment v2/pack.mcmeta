@@ -1,0 +1,14 @@
+{
+	"pack": {
+		"pack_format": 71,
+		"description": "基岩版同款 (误"
+	},
+	"overlays": {
+        "entries": [
+            {
+                "directory": "1_21_4",
+                "formats": 61
+            }
+        ]
+    }
+}
